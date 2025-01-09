@@ -12,3 +12,24 @@ https://github.com/netology-code/mnt-homeworks/blob/MNT-video/10-monitoring-03-g
 
 ### Задание 1. Скриншот веб-интерфейса grafana
 ![image](https://github.com/user-attachments/assets/e0975d18-1e99-460a-b56d-7a4c6bfe2329)
+
+### Задание 2. Скриншот Dashboard
+![image](https://github.com/user-attachments/assets/8a33f2dd-822d-46fc-9f18-fbeef7dfb184)
+
+### promsql
+```
+#утилизация CPU для nodeexporter (в процентах, 100-idle);
+100 - avg(irate(node_cpu_seconds_total{mode="idle"}[1m])) * 100
+
+#CPULA 1/5/15;
+sum(rate(node_cpu_seconds_total[1m])) by (instance)
+sum(rate(node_cpu_seconds_total[5m])) by (instance)
+sum(rate(node_cpu_seconds_total[15m])) by (instance)
+
+#количество свободной оперативной памяти;
+node_memory_MemAvailable_bytes
+
+#количество места на файловой системе.
+node_filesystem_avail_bytes{mountpoint="/"}
+```
+
