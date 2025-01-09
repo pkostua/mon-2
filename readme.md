@@ -34,6 +34,7 @@ node_filesystem_avail_bytes{mountpoint="/"}
 ```
 
 ### Задание 3. Dasboard с настроенными alert
+Пришлось изменить тип отображения портомучто для типа Stat алерты недоступны
 ![image](https://github.com/user-attachments/assets/32949d24-f445-4225-8e18-640abeef71b3)
 
 ### Задание 4. Сохраненный Dasboard
