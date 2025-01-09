@@ -16,7 +16,7 @@ https://github.com/netology-code/mnt-homeworks/blob/MNT-video/10-monitoring-03-g
 ### Задание 2. Скриншот Dashboard
 ![image](https://github.com/user-attachments/assets/8a33f2dd-822d-46fc-9f18-fbeef7dfb184)
 
-### promsql
+### promql
 ```
 #утилизация CPU для nodeexporter (в процентах, 100-idle);
 100 - avg(irate(node_cpu_seconds_total{mode="idle"}[1m])) * 100
