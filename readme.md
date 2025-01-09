@@ -33,3 +33,7 @@ node_memory_MemAvailable_bytes
 node_filesystem_avail_bytes{mountpoint="/"}
 ```
 
+### Задание 3. Dasboard с настроенными alert
+![image](https://github.com/user-attachments/assets/32949d24-f445-4225-8e18-640abeef71b3)
+
+
