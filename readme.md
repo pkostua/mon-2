@@ -8,3 +8,7 @@ https://github.com/netology-code/mnt-homeworks/blob/MNT-video/10-monitoring-03-g
 3. Скришот алерта
    ![image](https://github.com/user-attachments/assets/15f379fe-fc5f-4f4c-b844-3f7556fca570)
 
+## Обязательные задания
+
+### Задание 1. Скриншот веб-интерфейса grafana
+![image](https://github.com/user-attachments/assets/e0975d18-1e99-460a-b56d-7a4c6bfe2329)
